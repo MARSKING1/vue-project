@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>商品列表</title>
+    <link rel="shortcut icon" href="http://www.shopin.net/static/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" type="text/css" href="iconfont/iconfont.css" />
+    <link rel="stylesheet" href="css/brand-list.css">
+    <script src="js/jquery.js"></script>
+</head>
+
+<body>
+    <!--header-->
+    <div class="head-top">
+        <div class="layout">
+            <div class="h_left">
+                <em>您好！欢迎来到上品折扣</em>
+                <a href="#" class="deng">请登录</a>
+                <a href="#" class="zhu">免费注册</a>
+            </div>
+            <ul class="h_right">
+                <li><a href="#">我的商品</a></li>
+                <li><a href="#">在线客服</a></li>
+                <li><a href="#">帮助中心</a><i class="iconfont">&#xe658;</i>
+                    <ul class="three">
+                        <li class="serve">新手上路</li>
+                        <li class="serve">支付方式</li>
+                        <li class="serve">配送方式</li>
+                        <li class="serve">退货服务</li>
+                    </ul>
+                </li>
+                <li><a href="#">品妞俱乐部</a><i class="iconfont">&#xe658;</i>
+                    <ul class="four">
+                        <li class="club">关于品妞</li>
+                        <li class="club" id="club">会员俱乐部</li>
+                    </ul>
+                </li>
+                <li><a href="#">关注上品</a><i class="iconfont">&#xe658;</i>
+                    <div class="watch_shop">
+                        <img src="img/watch_shop_img.gif" class="watch_shop_img" />
+                        上品折扣微信公众号
+                    </div>
+                </li>
+                <li>上品折扣APP
+                    <i class="hei">◆</i>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="head-mid">
+        <div class="layout">
+            <a class="at-bc" style="cursor:pointer"><img src="img/logo.png" class="logo1"></a>
+            <a href="#"><img src="./img/tpcon2.gif" class="logo2">
+            </a>
+            <div class="search">
+                <input type="text" placeholder="休闲鞋" class="input" />
+                <a href="#" class="search_r">
+                    <div class="search_c"></div>
+                </a>
+                <ul class="nav1">
+                    <li><a href="">精选</a></li>
+                    <li><a href="">安踏</a></li>
+                    <li><a href="">斯凯奇</a></li>
+                    <li><a href="">罗马</a></li>
+                    <li><a href="">皮尔卡丹</a></li>
+                    <li><a href="">B.SIQI</a></li>
+                    <li><a href="">羽绒服</a></li>
+                    <li><a href="">衬衫</a></li>
+                    <li><a href="">羊绒衫</a></li>
+                    <li><a href="">李宁</a></li>
+                    <li><a href="">慢跑鞋</a></li>
+                    <li><a href="">独享</a></li>
+                </ul>
+            </div>
+            <div class="mini-cart">
+                <div class="head-mid-shop">
+                    <a href="my-cart.html" target="_blank">我的购物车</a>
+                    <i class="head-mid-shop-bac"></i>
+                    <i class="count">0</i>
+                </div>
+                <span class="space"></span>
+                <div class="panel">
+                    <span>最近添加的商品</span>
+                    <div class="panel-bom">
+                        <p>共0件商品 &nbsp; 共计￥0</p>
+                        <a href="#">去购物车</a>
+                    </div>
+                </div>
+            </div>
+            <img src="img/watch_shop_img.gif" class="app">
+        </div>
+    </div>
+    <div class="head-bom">
+        <div class="layout">
+            <div class="brand-list">
+                <div class="brand-list_h">
+                    <a href="#">
+                        <i class="bc-pic"></i>
+                        <span class="bc-pic-t">全部商品分类</span>
+                    </a>
+                </div>
+                <ul class="brand-list-first">
+                    <li class="active"><a href="#" class="li-col">女装　应季热销　大牌价到　 ></a></li>
+                    <li><a href="#" class="li-col">男装　秋季新品　超值衬衫　 ></a></li>
+                    <li><a href="#" class="li-col">羽毛　雪莲精选　羽绒上新　 ></a></li>
+                    <li><a href="#" class="li-col">女鞋　时尚女靴　秋冬新款　 ></a></li>
+                    <li><a href="#" class="li-col">男鞋　男鞋新款　商务男鞋　 ></a></li>
+                    <li><a href="#" class="li-col">运动　运动卫衣　跑鞋尚新　 ></a></li>
+                    <li><a href="#" class="li-col">户外　户外装备　布来亚克　 ></a></li>
+                    <li><a href="#" class="li-col">内衣　99元5件　大牌价到　 ></a></li>
+                    <li><a href="#" class="li-col">儿童　秋季新品　舒适童鞋　 ></a></li>
+                </ul>
+                <div class="brand-list-second">
+                    <section class="active">
+                        <div class="section_l">
+                            <div class="section-brand">
+                                <h4>热卖分类</h4>
+                                <a href="">皮尔卡丹</a>
+                                <a href="">连衣裙</a>
+                                <a href="">长袖衬衫</a>
+                                <a href="">大衣</a>
+                                <a href="">外套</a>
+                                <a href="">小西风</a>
+                                <a href="">风衣</a>
+                                <a href="">长裤</a>
+                                <a href="">牛仔裤</a>
+                            </div>
+                            <div class="section-brand">
+                                <h4>新上柜品牌</h4>
+                                <a href="">璐帕莎</a>
+                                <a href="">MixBIu</a>
+                                <a href="">柯白莉</a>
+                            </div>
+                            <div class="section-brand">
+                                <h4>风格馆</h4>
+                                <a href="">文艺风</a>
+                                <a href="">学院风</a>
+                                <a href="">OL风</a>
+                                <a href="">甜美风</a>
+                                <a href="">韩潮风</a>
+                            </div>
+                            <div class="section-brand">
+                                <h4>百搭裤装</h4>
+                                <a href="">休闲裤</a>
+                                <a href="">西裤</a>
+                                <a href="">牛仔裤</a>
+                            </div>
+                            <div class="section-brand">
+                                <h4>包邮品牌</h4>
+                                <a href="">贝斯琦</a>
+                                <a href="">纤纯伊</a>
+                                <a href="">法茄罗</a>
+                                <a href="">蒙丹米尔</a>
+                            </div>
+                        </div>
+                        <div class="section_r">
+                            <ul>
+                                <li><a href=""><img src="img/img1/a1.jpg" alt=""></a></li>
+                                <li><a href=""><img src="img/img1/a2.jpg" alt=""></a></li>
+                                <li><a href=""><img src="img/img1/a3.jpg" alt=""></a></li>
+                                <li><a href=""><img src="img/img1/a4.jpg" alt=""></a></li>
+                                <li><a href=""><img src="img/img1/a5.jpg" alt=""></a></li>
+                                <li><a href=""><img src="img/img1/a6.jpg" alt=""></a></li>
+                                <li><a href=""><img src="img/img1/a7.jpg" alt=""></a></li>
+                                <li><a href=""><img src="img/img1/a8.jpg" alt=""></a></li>
+                                <li><a href=""><img src="img/img1/a9.jpg" alt=""></a></li>
+                                <li><a href=""><img src="img/img1/a10.jpg" alt=""></a></li>
+                                <li><a href=""><img src="img/img1/a11.jpg" alt=""></a></li>
+                                <li><a href=""><img src="img/img1/a12.jpg" alt=""></a></li>
+                                <li><a href=""><img src="img/img1/a13.jpg" alt=""></a></li>
+                                <li><a href=""><img src="img/img1/a14.jpg" alt=""></a></li>
+                                <li><a href=""><img src="img/img1/a15.jpg" alt=""></a></li>
+                            </ul>
+                            <span class="section-bom"><img src="img/img1/p1.jpg" alt=""></span>
+                        </div>
+                    </section>
+                    <section>2</section>
+                    <section>3</section>
+                    <section>4</section>
+                    <section>5</section>
+                    <section>6</section>
+                    <section>7</section>
+                    <section>8</section>
+                    <section>9</section>
+                </div>
+
+            </div>
+            <ul class="head-bom-l">
+                <li><a href="#">首页</a></li>
+                <li><a href="#">品牌馆</a></li>
+                <li><a href="#">人气单品</a></li>
+                <li><a href="#">团购/礼品卡</a></li>
+                <li><a href="#">会员权益</a></li>
+            </ul>
+            <div class="head-bom-r">
+                <ul id="head-bom-r-ul">
+                    <li><a href="#">【公告】 元旦假期客户服务</a></li>
+                    <li><a href="#">【公告】 春节假期客户服务</a></li>
+                    <li><a href="#">【公告】 清明假期客户服务</a></li>
+                    <li><a href="#">【公告】 五一假期客户服务</a></li>
+                    <li><a href="#">【公告】 端午假期客户服务</a></li>
+                    <li><a href="#">【公告】 国庆假期客户服务</a></li>
+                    <li><a href="#">【公告】 中秋假期客户服务</a></li>
+                </ul>
+            </div>
+            <script src="js/donghua.js"></script>
+        </div>
+    </div>
+    <!-- 中间内容 -->
+    <div class="container" id="lazy-load">
+        <div class="in">
+            <div class="location">
+                <a href="">全部分类<span> > </span></a>
+                <a href=""> 运动<span> > 乔丹</span></a>
+            </div>
+            <div id="jfilter" class="filter">
+                <dl class="selector">
+                    <dt class="f-key">已选择</dt>
+                    <dd class="f-values">
+                        <ul>
+                            <li>
+                                <a href="">乔丹
+                                    <i class="cancel-sel"></i></a>
+                            </li>
+                            <li>
+                                <a href="">运动
+                                    <i class="cancel-sel"></i></a>
+                            </li>
+                        </ul>
+                    </dd>
+                </dl>
+                <dl class="selector-2">
+                    <dt class="s-key">分类</dt>
+                    <dd class="s-values">
+                        <a href="">长裤</a>
+                        <a href="">长裤</a>
+                        <a href="">长裤</a>
+                        <a href="">长裤</a>
+                        <a href="">长裤</a>
+                        <a href="">长裤</a>
+                        <a href="">长裤</a>
+                        <a href="">长裤</a>
+                        <a href="">长裤</a>
+                        <a href="">长裤</a>
+                        <a href="">长裤</a>
+                        <a href="">长裤</a>
+                        <a href="">长裤</a>
+                        <a href="">长裤</a>
+                        <a href="">长裤</a>
+                    </dd>
+                    <a class="f-more" href="#">
+                        更多
+                        <i></i>
+                    </a>
+                </dl>
+                <div class="advanced">
+                    <div class="filterSwitch">
+                        更多选项
+                        <div class="extra"></div>
+                        <i class="s-pic"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="sort-bar">
+                <ul class="sortleft">
+                    <li class="sortleft_l">
+                        <a href="" class="transition">点击热度
+                            <i class="sortleft_l-up"></i>
+                        </a>
+                    </li>
+                    <li class="sortcut"></li>
+                    <li class="sortleft_l">
+                        <a href="" class="transition">销量
+                            <i class="sortleft_l-up"></i>
+                        </a>
+                    </li>
+                    <li class="sortcut"></li>
+                    <li class="sortleft_l">
+                        <a href="" class="transition">上架时间
+                            <i class="sortleft_l-up"></i>
+                        </a>
+                    </li>
+                    <li class="sortcut"></li>
+                    <li class="sortleft_l">
+                        <a href="" class="transition">价格
+                            <i class="strange"></i>
+                        </a>
+                    </li>
+                    <li class="sortcut"></li>
+                    <li class="sortleft_l">
+                        <a href="" class="transition">折扣
+                            <i class="strange"></i>
+                        </a>
+                    </li>
+                </ul>
+                <div class="range">
+                    <ul class="prices">
+                        <li>
+                            <s>￥</s>
+                            <input type="text" class="input">
+                        </li>
+                        <li class="sep">-</li>
+                        <li>
+                            <s>￥</s>
+                            <input type="text" class="input">
+                        </li>
+                        <li class="btnli">
+                            <input type="button" class="btn" value="确定">
+                        </li>
+                    </ul>
+                </div>
+                <div class="range">
+                    <ul class="discount">
+                        <li>
+                            <s>折</s>
+                            <input type="text" class="input">
+                        </li>
+                        <li class="sep">-</li>
+                        <li>
+                            <s>折</s>
+                            <input type="text" class="input">
+                        </li>
+                        <li class="btnli">
+                            <input type="button" class="btn" value="确定">
+                        </li>
+                    </ul>
+                </div>
+                <ul id="jpage" class="sortright">
+                    <li class="pageinfo">共259件商品</li>
+                    <li>
+                        <a href="#" class="prev">
+                            上一页
+                            <i></i>
+                        </a>
+                    </li>
+                    <li>1/4</li>
+                    <li>
+                        <a href="#" class="next">
+                            下一页
+                            <i class="next-i"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="main-content">
+                <ul>
+                    
+                </ul>
+            </div>
+            <div class="pagination">
+                <ul class="fr" style="float:right;">
+                    <li class="pageInfo">共259件商品</li>
+                    <li class="page"></li>
+                    <li>
+                        <a href="#" class="pre">
+                            上一页
+                            <i></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="now">1</a>
+                    </li>
+                    <li>
+                        <a href="#" class="now">2</a>
+                    </li>
+                    <li>
+                        <a href="#" class="now">3</a>
+                    </li>
+                    <li>
+                        <a href="#" class="now">4</a>
+                    </li>
+                    <li>
+                        <a href="#" class="next">
+                            下一页
+                            <i></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--foot-->
+    <footer class="layout">
+        <div class="side-show">
+            <img src="img/tpcon.png">
+            <a href="" class="side-show-s">
+                <div class="scroll">
+                    <img src="img/watch_shop_img.gif" style="width: 95px;height: 95px;margin: 10px auto">
+                    <P>扫码下载APP</P>
+                    <i class="scroll_tri"></i>
+                </div>
+            </a>
+            <a class="side-show-back">
+            </a>
+        </div>
+        <script src="js/scroll.js"></script>
+        <div class="foot-top">
+            <ul class="foot-top-ul">
+                <li><img src="img/service-1.png" alt=""></li>
+                <li><img src="img/service-2.png" alt=""></li>
+                <li><img src="img/service-3.png" alt=""></li>
+                <li><img src="img/service-4.png" alt=""></li>
+            </ul>
+        </div>
+        <div class="foot-mid">
+            <div class="foot-mid-l">
+                <ul>
+                    <li><span>新手上路</span></li>
+                    <li><a href="">新用户注册</a></li>
+                    <li><a href="">购物流程</a></li>
+                    <li><a href="">支付方式</a></li>
+                    <li><a href="">尺码表参考</a></li>
+                </ul>
+                <ul>
+                    <li><span>支付方式</span></li>
+                    <li><a href="">网上支付</a></li>
+                    <li><a href="">网上支付帮助</a></li>
+                    <li><a href="">购物卷使用说明</a></li>
+                    <li><a href="">发票制度说明</a></li>
+                    <li><a href="">电子发票制度说明</a></li>
+                </ul>
+                <ul>
+                    <li><span>配送方式</span></li>
+                    <li><a href="">配送费收取标准</a></li>
+                    <li><a href="">配送时间和范围</a></li>
+                    <li><a href="">跟踪配送信息</a></li>
+                    <li><a href="">验货与签收</a></li>
+                </ul>
+                <ul>
+                    <li><span>售后服务</span></li>
+                    <li><a href="">退货政策</a></li>
+                    <li><a href="">退货流程</a></li>
+                    <li><a href="">退货注意事项</a></li>
+                    <li><a href="">退货方式和时间</a></li>
+                    <li><a href="">在线客服</a></li>
+                </ul>
+            </div>
+            <div class="zhong">
+                上品折扣APP下载
+                <img src="img/watch_shop_img.gif" alt="">
+            </div>
+            <div class="foot-mid-r">
+                <p>客户服务中心</p>
+                <h2>400-898-0808</h2>
+                <span>周一至周日：9:00-21:00</span>
+            </div>
+        </div>
+        <div class="foot-bom">
+            <ul class="foot-bom-list">
+                <li><a href="">关于我们</a><span>｜</span></li>
+                <li><a href="">网站地图</a><span>｜</span></li>
+                <li><a href="">诚聘英才</a><span>｜</span></li>
+                <li><a href="">友情链接</a><span>｜</span></li>
+                <li><a href="">隐私协议</a><span>｜</span></li>
+                <li><a href="">网站联盟</a><span>｜</span></li>
+                <li><a href="">所有品牌</a><span>｜</span></li>
+                <li><a href="">热门搜索</a><span>｜</span></li>
+                <li><a href="">联系我们</a></li>
+            </ul>
+            <p class="jing"><a href="#">京公网安备 11010502031797号</a>
+                <span>|</span>
+                <span>京ICP证090725号 Copyright 2008-2011,版权所有 SHOPIN.NET</span>
+                <span class="jing-last">上品商业旗下官方购物网站</span>
+            </p>
+            <div class="foot-bom-pic">
+                <img src="img/aut-1.jpg" alt="">
+                <img src="img/aut-2.jpg" alt="">
+                <img src="img/aut-3.jpg" alt="">
+                <img src="img/aut-4.jpg" alt="">
+                <img src="img/aut-5.jpg" alt="">
+                <img src="img/aut-6.jpg" alt="">
+                <img src="img/aut-7.png" alt="">
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="js/public.js"></script>
+    <script src="js/comeback.js"></script>
+    <script src="js/jquery.cookie.js"></script>
+    <script src="js/brand-list.js"></script>
+</body>
+
+</html>

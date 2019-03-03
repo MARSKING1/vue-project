@@ -1,0 +1,144 @@
+.li1{
+    display: block;
+    height: 275px;
+    background: url("../img/double-11/b_01.jpg") center 0 no-repeat;
+}
+.li2{
+    height: 275px;
+    background: url("../img/double-11/b_02.jpg") no-repeat center 0;
+}
+.s_page{
+    overflow: hidden;
+    padding-bottom: 50px;
+    font-family: 'microsoft yahei';
+    background: #006abb;
+}
+/* time-line */
+.time-line{
+    width: 1166px;
+    height: 157px;
+    padding: 116px 0 0 34px;
+    background: url(../img/double-11/timeline.bak.jpg) no-repeat 0 0;
+    margin: 24px auto 44px;
+}
+.item{
+    float: left;
+    width: 106px;
+    height: 140px;
+    color: #fff;
+    background: url(../img/double-11/day_bg.png) no-repeat center center;
+}
+.item:nth-of-type(11){
+    font-weight: 700;
+    color: #fff33b;
+}
+.tl-day{
+    display: block;
+    font-size: 30px;
+    font-style: normal;
+    text-decoration: none;
+}
+.ti-cate{
+    display: block;
+    margin-top: 58px;
+    padding-left: 8px;
+    font-size: 24px;
+    font-style: normal;
+    text-decoration: none;
+}
+
+/* banner */
+.s-banner{
+    width: 1274px;
+    border: none;
+    margin: 0 auto;
+}
+/* s_part */
+.s_part{
+    width:1200px;
+    margin: -45px auto 0;
+}
+.s_part-oz{
+    overflow: hidden;
+    margin-left:-10px;
+}
+.s_part-oz>li{
+    margin-left:10px;
+    width:232px;
+    height:327px;
+    background: url("../img/double-11/dp_bg.jpg") no-repeat center 0;
+    float: left;
+    text-align: center;
+    margin-bottom: 10px; 
+}
+.s_part-oz>li>a>img{
+    width: 232px;
+    height: 232px;
+    border:0;
+}
+.s_part-oz>li>a>p:nth-of-type(1){
+    height: 35px;
+    font: 500 20px/35px 'microsoft yahei';
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 232px;
+}
+.s_part-oz>li>a>p:nth-of-type(2){
+    height: 20px;
+    font: 500 18px/20px 'microsoft yahei';
+    color: #ff0000;
+}
+/* s-region */
+.s-region{
+    width:1200px;
+    margin: 0 auto;
+}
+.items{
+    display: block;
+}
+.s-title{
+    height: 105px;
+    line-height: 90px;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 36px;
+    background: url(../img/double-11/title_bg.png) no-repeat center 0;
+    color: #fff;
+}
+.clear{
+    margin-left: -10px;
+    zoom:1;
+    height: 648px;;
+}
+.clear>li{
+    margin-left: 10px;
+    width: 232px;
+    height: 314px;
+    background: #fff;
+    float: left;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.clear>li>img{
+    border:none;
+    vertical-align: middle;
+    outline: none;
+}
+.s-name{
+    height: 39px;
+    font: 500 20px/39px 'microsoft yahei';
+}
+.zhe{
+    text-align: center;
+}
+.zhe-part{
+    font: 500 16px/28px 'microsoft yahei';
+    color: #fff;
+    background: #fcd5d5;
+    padding: 5px 15px;
+    background-color: #ff0036;
+    margin: 0 auto;
+    border-radius: 20px;
+    display: inline;
+}

@@ -1,0 +1,470 @@
+.in{
+    width: 1100px;
+    margin: 0 auto;
+}
+.location{
+    height: 36px;
+    line-height: 36px;
+    font-size: 12px;
+}
+.location>a{
+    color: #000;
+    outline: none;
+    float: left;
+}
+.location>a>span{
+    color: #666;
+}
+.location>a:hover{
+    color: #f40;
+}
+.location>a:hover span{
+    color:#666;
+}
+.filter{
+    margin-bottom: 40px;
+    line-height: 26px;
+    zoom:1;
+    border:1px solid #e4e4e4;
+}
+.selector{
+    height: 26px;
+    padding:5px 0;
+    zoom:1;
+    background:#e4e4e4;
+}
+.f-key{
+    float: left;
+    width:80px;
+    padding-right: 10px;
+    text-align: right;
+    color: #666;
+}
+.f-values{
+    overflow: hidden;
+}
+.f-values>ul>li{
+    float:left;
+}
+.f-values>ul>li>a{
+    position: relative;
+    float: left;
+    padding:0 10px;
+    border-right:30px #ccc solid;
+    background: #fff; 
+}
+.cancel-sel{
+    /* font-style: normal; */
+    position: absolute;
+    right:-19px;
+    top:11px;
+    width:9px;
+    height:9px;
+    background:url(../img/brand-list/sprite.gif)no-repeat -27px -41px;
+}
+.selector-2{
+    width: 978px;
+    height: 52px;
+    padding:5px 120px 5px 0;
+    border:1px #e4e4e4 solid;
+    position: relative;
+}
+.s-key{
+    float: left;
+    width: 80px;
+    padding-right: 10px;
+    height: 26px;
+    text-align: right;
+    color: #666;
+}
+.s-values{
+    overflow: hidden;
+}
+
+.s-values>a{
+    display: inline-block;
+    margin-right: 40px;
+    white-space: nowrap;
+    color:#000;
+}
+.s-values>a:hover{
+    color:#f40;
+}
+.f-more{
+    font-size:12px;
+    right: 20px;
+    position: absolute;
+    top:10px;
+    padding-right: 20px;
+
+}
+.f-more i{
+    position: absolute;
+    right:5px;
+    top:12px;
+    width: 9px;
+    height:5px;
+    line-height: 5px;
+    overflow: hidden;
+    background: url("../img/brand-list/sprite.gif")no-repeat -27px -41px;
+}
+.f-more:hover{
+    color:#f40
+}
+.advanced{
+    font-size:12px;
+    text-align: right;
+    height: 30px;
+    display: none;
+}
+.filterSwitch{
+    font-size:12px;
+    margin-bottom:-30px;
+    height:30px;
+    line-height: 30px;
+    padding:0 30px 0 20px;
+    cursor: pointer;
+    background:#e4e4e4;
+    position: relative;
+}
+.extra{
+    display: inline !important;
+}
+.filterSwitch .s-pic{
+    display: block;
+    position: absolute;
+    right: 15px;
+    top:12px;
+    width: 9px;
+    height: 5px;
+    line-height: 5px;
+    overflow: hidden;
+    background: url("../img/brand-list/sprite.gif")no-repeat -27px -41px;
+    font-style: normal;
+}
+.sort-bar
+{   
+    width: 1101px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 10px;
+    background: #e4e4e4;
+    position: relative;
+}
+.sortleft{
+    float: left;
+}
+.sortleft li
+{
+    float: left;
+    font-size: 14px;
+    font-family: microsoft yahei;
+}
+.transition{
+    padding:0 40px 0 20px;
+    position: relative;
+    height:40px;
+}
+.sortleft>li .transition>i{
+    position: absolute;
+    right:22px;
+    top:50%;
+    width:11px;
+    height:12px;
+    line-height: 12px;
+    margin-top:-6px;
+    overflow: hidden;
+    background:url("../img/brand-list/sprite.gif")no-repeat left top;
+    font-style: normal;
+    background-position: 0 -17px;
+}
+.sortleft>li .transition .strange{
+    background:url("../img/brand-list/sprite.gif")no-repeat left top;
+    background-position: -20px -17px;
+}
+.sortleft>li:nth-of-type(5){
+    
+    background: #f40;
+}
+.sortleft>li:nth-of-type(5)>.transition{
+    color: #fff;
+   
+}
+.sortleft>li:nth-of-type(5)>.transition>i{
+     background: url("../img/brand-list/sprite.gif")no-repeat;
+    background-position: 0px -29px;
+}
+.sortleft .sortcut{
+    position: relative;
+    top:19px;
+    width:0;
+    height:12px;
+    padding:0;
+    overflow: hidden;
+    border:1px #d8d8d8 solid;
+}
+.range{
+    position: absolute;
+    height: 24px;
+    padding:9px 0 7px 16px;
+    float: left;
+}
+.range:nth-of-type(1){
+    z-index: 5;
+    left: 505px;
+    top:0px;
+}
+.range:nth-of-type(2){
+    z-index: 4;
+    left: 635px;
+    top:0px;
+}
+.prices>li{
+    position: relative;
+    z-index: 1;
+    line-height: 24px;
+    float: left;
+    font-size:14px;
+}
+.prices>li>s{
+    
+    position: absolute;
+    left: 3px;
+    top:5px;
+    width:12px;
+    height:12px;
+    color:#999;
+    text-align:center; 
+    font: 500 10px arial;
+    font-style:normal;
+    text-decoration: none;
+}
+.prices>li>.input{
+    padding-left: 15px;
+    width:32px;
+    height:20px;
+    line-height: 20px;
+    overflow: hidden;
+    vertical-align: top;
+    border:1px #bebebe solid;
+}
+.range .sep{
+    width:8px;
+    padding:0 3px;
+    text-align:center;
+    font-size:14px;
+}
+.discount>li{
+    position: relative;
+    z-index: 1;
+    line-height: 24px;
+    float: left;
+    font-size:14px;
+}
+.discount s{
+    position:absolute;
+    left: auto;
+    right:4px;
+    text-decoration:none;
+    top:5px;
+    width:12px;
+    height: 12px;
+    text-align: center;
+    font:500 10px arial;
+    color:#999;
+}
+.discount .input{
+    width:29px;
+    padding-right:18px;
+    text-align:right;
+    height:20px;
+    line-height: 20px;
+    vertical-align: top;
+    overflow: hidden;
+    border:1px solid #bebebe
+}
+  .btnli .btn{
+    margin-left: 5px;
+    width:42px;
+    height:22px;
+    vertical-align: top;
+    cursor: pointer;
+    background: #f40;
+    border:none;
+    color: #fff;
+    display: none;
+}
+.sortright{
+    float: right;
+    color:#000;
+}
+.sortright li{
+    float: left;
+    font-size: 14px;
+    font-family: microsoft yahei;
+    margin-right: 15px;
+}
+.sortright .pageinfo{
+    margin-right: 30px;
+}
+.sortright .prev{
+    cursor: default;
+    color:#999;
+    padding-left: 13px;
+    position: relative;
+    height:40px;
+}
+.sortright .prev i{
+    position: absolute;
+    top:50%;
+    line-height: 12px;
+    margin-top:-6px;
+    overflow: hidden;
+    background: url("../img/brand-list/sprite.gif")no-repeat;
+    background-position: 0 -41px !important;
+    left: 5px;
+    right:auto;
+    width: 5px;
+    height:9px; 
+}
+.sortright .next{
+    padding-right:13px;
+    color:#000;
+    position: relative;
+    display:block;
+    height:40px;
+}
+.sortright .next i{
+    position: absolute;
+    top:50%;
+    line-height: 12px;
+    margin-top:-6px;
+    overflow: hidden;
+    background: url("../img/brand-list/sprite.gif")no-repeat;
+    background-position: -13px -41px;
+    left: 45px;
+    right:auto;
+    width: 5px;
+    height:9px; 
+}
+.main-content ul{
+    width: 1100px;
+    margin-left:1px;
+    height: 5503px;
+}
+.main-content li{
+    position: relative;
+    z-index: 1;
+    float: left;
+    width:200px;
+    height: 254px;
+    padding:10px 37px;
+    margin:0 0 -1px -1px;
+    zoom:1;
+    border: 1px solid #eaeaea;
+}
+.productImg{
+    color: #000;
+}
+.productName{
+    width:200px;
+    height:16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font: 500 14px/16px 'microsoft yahei';   
+}
+.productName em{
+    color:#f40 !important;
+    font-style: normal;
+}
+.main-content .price{
+    margin-right: 10px;
+    font: 700 18px/30px arial;
+    vertical-align: -3px;
+    color:#f40;
+}
+.main-content .discount {
+    display: none!important;
+    height: 17px;
+    line-height: 17px;
+    padding: 0 8px 0 12px;
+    margin: 0 11px 0 4px;
+    background: url("../img/brand-list/shopin.png") no-repeat left top;
+    background-position: 0 -51px;
+    color: #000;
+    font-style: normal;
+}
+.gray{
+    font-size:12px;
+    color:#666;
+}
+.my-cart{
+    background: #f40;
+    color:#fff;
+    width: 110px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    left: 145px;
+    top:225px;
+    cursor: pointer;
+}
+.main-content >ul >li:hover{
+    z-index: 2;
+    border:1px #f40 solid;
+}
+.main-content li:hover .productName{
+    color: #f40;
+    text-decoration: #f40 underline;
+}
+
+.pagination{
+    height: 40px;
+    margin-top:20px;
+    font: 500 14px 'microsoft yahei';
+    margin-bottom:20px; 
+}
+.pagination li{
+    float: left;
+    line-height: 38px;
+    margin-left:10px;
+}
+.pagination .pageinfo{
+    margin-right: 30px;
+}
+.pagination .pre{
+    padding-left: 24px;
+}
+.pagination li a {
+    position: relative;
+    float: left;
+    height:38px;
+    padding:0 18px;
+    background:#fff;
+    border:1px solid #eaeaea;
+}
+.pagination .pre i{
+    position: absolute;
+    width:5px;
+    height:9px;
+    left:12px;
+    top:15px;
+    background:url("../img/brand-list/sprite.gif") no-repeat;
+    background-position:0 -41px;
+}
+.pagination .next{
+    padding-right:24px;
+}
+.pagination .next i{
+    position: absolute;
+    left: auto;
+    right:12px;
+    width:5px;
+    height:9px;
+    top:15px;
+    background:url("../img/brand-list/sprite.gif")no-repeat;
+    background-position: -4px -41px;
+}
