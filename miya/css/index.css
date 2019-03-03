@@ -1,0 +1,62 @@
+/*nav*/
+.banner{width:1426px;height: 480px;margin:auto;position: relative;overflow: hidden;z-index: -1;}
+.imgbox{position: relative;width:1426px;height: 480px;}
+.imgbox img{position: absolute;left: 1426px;top: 0;width: 1426px;height: 480px;}
+.imgbox img:nth-child(1){left: 0;}
+.list{width:60px;height:25px;border-radius:5px;background: rgba(238,238,238,.3);position: absolute;left: 1207px;top: -40px;}
+.list{position: relative;}
+.list li{width: 10px;height: 10px;border-radius: 50% 50%;border:1px #000 solid;background: #ffffff;position: absolute;top: 0;bottom: 0;margin: auto;}
+.list li:nth-of-type(1){left: 15px;}
+.list li:nth-of-type(2){left: 35px;}
+/*w1000*/
+.w1000{margin: 0 auto;width:auto;height:5850px;font: 14px/1.5 Tahoma,Arial,"Hiragino Sans GB","微软雅黑",sans-serif;color: #333;background: #f9f9f9;}
+.index-brand{width: 860px;height:105px;margin-left:260px;padding-top: 20px;margin-bottom: 35px;}
+.index-brand>h3{display: block;width: 120px;height:105px;line-height: 105px;text-align: center;float: left; background: #ffffff;font-size: 15px;}
+.brands>a{float: left;}
+    /*mod_h3*/
+.mod_h3{width: 1100px;height:36px;line-height:36px;font-size: 24px;}
+.mod_h3>span{margin-left:15px;font-size: 17px;font-weight: normal;color:#999999;}
+/*第一波*/
+.clear_fix{width:1101px;height:689px;background:#ffffff;margin-top:20px;display: flex;justify-content:flex-start;flex-wrap:wrap;margin-bottom:30px;}
+.clear_fix>a{width: 219px;height: 344px;border-right:1px #e5e5e5 solid;border-bottom:1px #e5e5e5 solid;}
+.clear_fix>a:nth-of-type(1),
+.clear_fix>a:nth-of-type(2),
+.clear_fix>a:nth-of-type(3),
+.clear_fix>a:nth-of-type(4),
+.clear_fix>a:nth-of-type(5){border-top:1px #e5e5e5 solid;}
+.clear_fix>a:nth-of-type(1),.clear_fix>a:nth-of-type(6){border-left:1px #e5e5e5 solid;}
+
+.trim{width:217px;height:123px;}
+.tit{width:189px;height:18px;margin-left:20px;font-weight: bolder;font-size:12px;}
+.gds_img:hover{opacity:.9}
+.clear_fix>a:hover .tit{color:#fa4ba7;}
+.desc{display:block;width:189px;height:19px;font-size:12px;color:#333333;margin-left:20px;}
+.gsh_mark{display: block;width:42px;height: 16px;border: 1px #c2c2c2 solid;border-radius: 5px;color:#c2c2c2;line-height: 16px;font-size: 12px;text-align: center;font-style: normal;margin-left:20px;margin-top: 5px;}
+.price{width: 100px;height: 43px;margin-left: 20px;float: left;letter-spacing: 0.5px}
+.new{color: red;width: 100px;height: 24px;float: left;margin-bottom: 5px;}
+.new>em{font-style: normal;font-size: 20px;margin-left: -5px;}
+.old{width: 100px;height:14px;font-size:12px;}
+.btn{display:block;width: 66px;height:28px;background: #ff4a49;color: #ffffff;border-radius: 14px;font-size: 12px;line-height: 28px;text-align: center;float: left;margin-left: 15px;}
+.buy{width: 70px;height:18px;float: left;margin-left: 15px;font-size: 12px;margin-top: 3px;}
+/*第二波 show*/
+.index-outlet{width:100%;height:3556px;}
+.show{width: 1098px;height:418px;background: #fff;margin-top:20px;margin-bottom:20px;border: 1px #e5e5e5 solid;}
+/*title*/
+.blank_title{width: 1098px;height:100px;margin: 20px;margin-bottom:0px;}
+.blank_img>img{width:80px;height:80px;float: left;border:1px #f4f4f4 solid;border-radius: 5px;margin-right:15px;}
+.blank_img{float: left;}
+.tit_left{width: 240px;height:80px;padding-top: 5px;float: left}
+.blank_name{display: block;width:80px;height:30px;line-height:30px;text-align:center;float: left;margin-top: 25px;}
+.tit_left>a:hover .blank_name{color:#fa4ba7;}
+.tit_right{float: left;width:165px;height:40px;border:1px #fa4ba7 solid;color:#fa4ba7;border-radius: 20px;text-align: center;line-height: 40px;margin-left: 650px;margin-top:25px;}
+/*content*/
+img.lazyload{width:196px;height:196px;}
+.blank_items{float: left;width:196px;height:274px;margin-left: 20px;}
+.thing_img{width: 196px;height: 196px;position: relative;margin-bottom: 5px;}
+.free_tax{display: block;width: 86px;height:26px;border:1px #fa4ba7 solid;border-radius: 13px;color:#fa4ba7;text-align: center;line-height: 26px;position: absolute;left: 55px;top:165px;background: rgba(238,238,238,.3)}
+.thing_img:hover{opacity:.9}
+.thing_tit{margin-bottom: 5px;}
+.thing_price{letter-spacing:-1px;}
+.thing_old{color: #999999;}
+.thing_new{color: #fa4b9b;}
+.thing_new .em{font-size: 20px;font-weight: bolder;}

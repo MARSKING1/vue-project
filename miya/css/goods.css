@@ -1,0 +1,7 @@
+/*gds_head*/
+.goods_details{width:1423px;height:1713px;}
+.gds_head{width: 1423px;height: 50px;color: #333333;font-size: 12px;}
+.gds_head>a,.gds_head>i,.bao_f{float: left;line-height: 50px;margin-right: 10px;}
+.gds_head>a:hover{color:deeppink;}
+/*gds_body_l*/
+.gds_body_l{width: 465px;height:600px;border: 1px #000 solid;}
