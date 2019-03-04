@@ -9,5 +9,4 @@ NOTE: all the explanations belongs to the developer.
 
 
 
-                                                                      class:1809
                                                                       developer:marvel
