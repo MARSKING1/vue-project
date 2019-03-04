@@ -1,0 +1,13 @@
+{
+    "slide":[
+        {"id":1,"img":"../images/index-ban01.png"},
+        {"id":2,"img":"../images/index-ban02.png"},
+        {"id":3,"img":"../images/index-ban03.png"}
+    ],
+    "homeshop":[
+        {"id":1,"homeImg":"../images/index-ph01.png","homeName":"男装"},
+        {"id":2,"homeImg":"../images/index-ph02.png","homeName":"女装"},
+        {"id":3,"homeImg":"../images/index-ph01.png","homeName":"男装"},
+        {"id":4,"homeImg":"../images/index-ph02.png","homeName":"女装"}
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "assort":[
+        {"id":1,"aImage":"../images/classify01.png","aName":"母婴用品"},
+        {"id":2,"aImage":"../images/classify02.png","aName":"女装正品"},
+        {"id":3,"aImage":"../images/classify03.png","aName":"男装正品"},
+        {"id":4,"aImage":"../images/classify04.png","aName":"内衣服饰"},
+        {"id":5,"aImage":"../images/classify05.png","aName":"化妆品"},
+        {"id":6,"aImage":"../images/classify06.png","aName":"居家百货"},
+        {"id":7,"aImage":"../images/classify07.png","aName":"时尚智能"},
+        {"id":8,"aImage":"../images/classify08.png","aName":"营养保健"},
+        {"id":9,"aImage":"../images/classify09.png","aName":"女鞋箱包"}
+    ],
+    "assortone":[
+        {"id":1,"bImage":"../images/classify-ph02.png","bName":"DNA"},
+        {"id":2,"bImage":"../images/classify-ph03.png","bName":"钙剂"},
+        {"id":3,"bImage":"../images/classify-ph02.png","bName":"DNA"},
+        {"id":4,"bImage":"../images/classify-ph03.png","bName":"钙剂"}
+    ],
+    "assorttwo":[
+        {"id":1,"bImage":"../images/classify-ph04.png","bName":"DNA"},
+        {"id":2,"bImage":"../images/classify-ph05.png","bName":"钙剂"},
+        {"id":3,"bImage":"../images/classify-ph04.png","bName":"DNA"},
+        {"id":4,"bImage":"../images/classify-ph05.png","bName":"钙剂"}
+    ]
+}
